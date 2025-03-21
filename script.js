@@ -38,7 +38,7 @@ async function checkNews() {
 
     // Call FastAPI backend
     try {
-        let response = await fetch("https://spam-news-flask-backend.onrender.com/predict", {
+        let response = await fetch("https://fake-news-2024.onrender.com/predict", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
